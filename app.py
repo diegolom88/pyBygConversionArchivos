@@ -35,7 +35,7 @@ if __name__ == "__main__":
         ]
         logs_folder = Path("C:/Users/Administrador/ScriptsBI/Logs")
 
-        log_path = logs_folder / f"{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+        log_path = logs_folder / f"bygConversionArchivos_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
 
         # Create logs folder if it doesn't exist
         log_path.parent.mkdir(parents=True, exist_ok=True)
